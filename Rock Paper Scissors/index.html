@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/bd14cce2e5.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Rock Paper Scissors</h1>
+        <button class="restart-btn" id="restart">Restart Game</button>
+        <div id="score" class="score">
+          <p>Player: 0</p>
+          <p>Computer: 0</p>
+        </div>
+      </header>
+      <h2>Make Your Selection</h2>
+      <div class="choices">
+        <i class="choice fas fa-hand-rock fa-10x" id="rock"></i>
+        <i class="choice fas fa-hand-paper fa-10x" id="paper"></i>
+        <i class="choice fas fa-hand-scissors fa-10x" id="scissors"></i>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div id="result" class="modal-content"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
